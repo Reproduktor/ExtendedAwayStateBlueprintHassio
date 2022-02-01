@@ -31,7 +31,7 @@ I use this automation for every home member independently. My schema is:
 3. Based on this blueprint, create automations for each person: `Maintain an 'extended away' state for Person1`, `Maintain an 'extended away' state for Person2`, ...
 
 ## Practical applications
-I use the state for controlling, to whom the notifications from Home Assistant will be sent. In my scenario, I have a script which delivers a given message to family members, that are home-ish. The script is like this:
+I use the state for controlling to whom the notifications from Home Assistant will be sent. In my scenario, I have a script which delivers a given message to family members, that are home-ish. The script is like this:
 ```yaml
 notify_family_members_at_home_these_days:
   alias: Notify family members at home these days
